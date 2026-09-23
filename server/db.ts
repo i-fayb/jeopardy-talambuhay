@@ -12,7 +12,7 @@ const pastQuestions: Question[] = sortQuestions([
     {
         points: 200,
         question:
-            'Where is the city of Toldeo located?',
+            'Which country is the city of Toldeo located?',
         imgSrc: "static/toledo.png",
         answer: 'Spain',
     },
@@ -24,7 +24,7 @@ const pastQuestions: Question[] = sortQuestions([
     },
     {
         points: 400,
-        question: 'Which book character is imprisoned in the Château dIf for 14 years?',
+        question: 'Which book character is imprisoned in the Château d\'If for 14 years?',
         answer: 'The Count of Monte Cristo',
     }
 ]);
@@ -34,14 +34,14 @@ const presentQuestions: Question[] =
         {
             points: 100,
             question:
-                'Which famous French king is known as the Sun King?',
+                'Which French king is famously known as the Sun King?',
                 imgSrc: 'static/king.webp',
             answer: 'Louis XIV',
         },
         {
             points: 200,
             question:
-                'What US state was the skateboard invented in ?',
+                'Which US state was the skateboard invented in?',
             answer: 'California',
         },
         {
@@ -53,7 +53,7 @@ const presentQuestions: Question[] =
         {
             points: 400,
             question:
-                'The rebellion against against classical ballet led to which dance style?',
+                'The rebellion against against ballet led to which dance style?',
             answer: 'contemporary',
         }
     ]);
@@ -61,7 +61,7 @@ const futureQuestions: Question[] = sortQuestions([
     {
         points: 100,
         question:
-            'WHo is the author of the book "1984"?',
+            'Who is the author of the book "1984"?',
         answer: 'George Orwell',
     },
     {
